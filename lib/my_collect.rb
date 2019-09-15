@@ -1,5 +1,5 @@
-def my_collect(students)
-  students do |student|
-  student.split(" ").first
+def my_collect(languages) 
+  labguages do |language|
+         language.upcase
   end
 end
