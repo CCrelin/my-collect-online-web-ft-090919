@@ -1,4 +1,4 @@
-def my_collect(x)
+def my_collect(students)
   
   
 end
