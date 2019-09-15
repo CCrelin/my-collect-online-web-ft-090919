@@ -1,10 +1,10 @@
-def my_collect(array)
-  
-  my_collect(array) do |name|
-    name.split(" ").first
+def my_collect(x)
+  array =[]
+  my_collect(x) do |name|
+  name.split(" ").first
+  z = name.split(" ").first
+  array << z
   end
+  array
   
-  my_collect(collection) do |lang|
-    lang.upcase
-  end
 end
