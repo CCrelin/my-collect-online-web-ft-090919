@@ -1,5 +1,5 @@
 def my_collect(languages) 
-  labguages do |language|
-         language.upcase
+  languages do |language|
+  language.upcase
   end
 end
